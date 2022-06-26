@@ -1,5 +1,7 @@
 import "reflect-metadata"
-import { DataSource } from "typeorm"
+import { Category } from "../modules/cars/entities/Category";
+import { CreateCategories1656201025703 } from "./migrations/1656201025703-CreateCategories";
+import {DataSource} from "typeorm";
 
 const AppDataSource = new DataSource({
   type: "postgres",
@@ -8,15 +10,12 @@ const AppDataSource = new DataSource({
   username: "docker",
   password: "ignite",
   database: "rentx",
-  synchronize: false,
   logging: false,
-  entities: [],
-  migrations: ["./src/database/migrations/*.ts"],
-  subscribers: [],
+  entities: [Category],
+  migrations: [CreateCategories1656201025703],
+  subscribers: [], 
 })
 
 export function createConnection(host = "database"): Promise<DataSource> {
   return AppDataSource.setOptions({ host }).initialize();
 }
-
-export default AppDataSource
