@@ -1540,7 +1540,7 @@ readdirp@~3.6.0:
 
 reflect-metadata@^0.1.13:
   version "0.1.13"
-  resolved "https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.13.tgz"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regexpp@^3.2.0:
@@ -1911,7 +1911,7 @@ typedarray@^0.0.6:
 
 typeorm@^0.3.6:
   version "0.3.6"
-  resolved "https://registry.npmjs.org/typeorm/-/typeorm-0.3.6.tgz"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.3.6.tgz#65203443a1b684bb746785913fe2b0877aa991c0"
   integrity sha512-DRqgfqcelMiGgWSMbBmVoJNFN2nPNA3EeY2gC324ndr2DZoGRTb9ILtp2oGVGnlA+cu5zgQ6it5oqKFNkte7Aw==
   dependencies:
     "@sqltools/formatter" "^1.2.2"
